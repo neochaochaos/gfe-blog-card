@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+    <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <style>
+      /* You may write styles inside this <style> tag or within `css/style.css`. */
+    </style>
+  </head>
+  <body
+    class="pt-[120px] bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] shadow-lg"
+  >
+    <div
+      class="max-w-[340px] mx-auto rounded-md border border-solid border-[#E6E6E6] bg-white"
+    >
+      <img
+        src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+        alt="photo of a living room"
+        class="rounded-t-md object-cover"
+      />
+      <div class="py-6 px-4">
+        <div>
+          <span
+            class="text-green-700 bg-green-50 border-green-200 py-0.5 px-2 border rounded-full"
+          >
+            Interior
+          </span>
+          <h2 class="pt-2 text-lg font-semibold">
+            Top 5 Living Room Inspirations
+          </h2>
+        </div>
+        <div class="mt-3 text-neutral-600">
+          <div class="pb-6">
+            <p class="line-clamp-2">
+              Curated vibrants colors for your living, make it pop & calm in the
+              same time.
+            </p>
+          </div>
+          <a
+            class="text-indigo-700 hover:text-indigo-800 focus:shadow-[0px_0px_0px_4px_rgba(68,76,231,0.12)] focus:rounded-sm px-0.5"
+            href=""
+          >
+            Read more <span class="pl-1.5">&rarr;</span></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Attribute this challenge to yourself! -->
+    <div class="credits">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
+        >Your Name</a
+      >.
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
